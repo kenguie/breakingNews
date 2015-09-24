@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testing Breaking News</title>
+
+	<style type="text/css">
+        body {
+        	width: 960px;
+        	margin: 0 auto;
+        }
+
+		#breakingContainer{
+			margin-bottom: 15px;
+		}
+
+		.breaking-news {
+		    background-color: #000000;
+		    font-size: 17pt;
+		    padding: 10px 15px 10px 10px;
+		    width: 234px;
+		    text-transform: uppercase;
+		    display: table-cell;
+		    vertical-align: middle;
+		    color: white;
+    		text-align: center;
+		}
+
+		h4 {
+		    padding: 5px 10px;
+		    display: table-cell;
+		    vertical-align: middle;
+		    background-color: red;
+		    width: 62%;
+		    text-align: center;
+		}
+
+		h4 a {
+			color: white;
+		}
+
+		.read-more {
+		    display: table-cell;
+		    vertical-align: middle;
+		    background-color: black;
+		    text-align: center;
+		    width: 15%;
+		}
+
+		.read-more a {
+			color: white;
+		}
+
+
+		#container {
+			position: relative;
+		}
+		svg {
+			position: absolute;
+			z-index: 0;
+		}
+		#content {
+			position: relative;
+			word-break: break-all;
+		    width: 234px;
+		    padding: 10px;
+		    box-sizing: border-box;
+		    -moz-text-overflow: ellipsis;
+		    font-size: 23px;
+		    color: white;
+		    text-transform: uppercase;
+		    display: table-cell;
+		}
+
+
+	</style>
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+
+
+
+
+	$(document).ready(function() {
+		
+    });
+
+</script>
+</head>
+<body>
+
+<div id="breakingContainer">
+	<div class="breaking-news">Breaking News:</div>
+	<h4 class="wnContent headline"><a href="/story/30043990/coshocton-babysitter-charged-with-murdering-7-month-old"><span class="text iceHeadline iceFeatureID-30043990 iceFeatureType-S">Coshocton Babysitter Charged With Murdering 7-Month-Old</span></a></h4>
+	<div class="read-more"><a href="/story/30043990/coshocton-babysitter-charged-with-murdering-7-month-old">Read More</a></div>
+</div>
+
+
+<div id="container">
+  <svg id="bg" height="100%" width="300" viewBox="0 0 150 100" preserveAspectRatio="none" shape-rendering="geometricPrecision">
+    <path d="M0,0 h110 l30,50 l-30,50 h-110z" fill="black" />
+  </svg>
+  <div id="content">Breaking News:</div>
+
+  <h4 class="wnContent headline"><a href="/story/30043990/coshocton-babysitter-charged-with-murdering-7-month-old"><span class="text iceHeadline iceFeatureID-30043990 iceFeatureType-S">Coshocton Babysitter Charged With Murdering 7-Month-Old</span></a></h4>
+
+  <div class="read-more"><a href="/story/30043990/coshocton-babysitter-charged-with-murdering-7-month-old">Read More</a></div>
+
+</div>
+
+
+</body>
+</html>
+
